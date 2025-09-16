@@ -23,6 +23,9 @@
 }
 
 .reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #dc3545;
   border-color: #dc3545;
 }
@@ -30,4 +33,8 @@
 .reset:hover {
   background-color: #bb2d3b;
   border-color: #b02a37;
+}
+
+.resetDisable {
+  display: none;
 }
